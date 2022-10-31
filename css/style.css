@@ -182,6 +182,7 @@ a:hover, a:visited, a:active{
  .home-posts {
     padding: 125px 0;
     background-color: #f2f5f7;
+    margin-bottom: 30px;
  }
  .section-head h2, .section-head p {
     width: 100%;
@@ -233,3 +234,37 @@ a:hover, a:visited, a:active{
 .owl-dots button.active {
     border-color: #00BC9C !important;
 }
+.contact-us {
+    padding: 125px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+.contact-text-area {
+    width: 750px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.contact-text-area h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+    color: #506A85;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.contact-text-area p {
+    font-size: 22px;
+    color: #506A85;
+}
+.contact-area-btn {
+    background-color: #00bc9c;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid #00a085;
+    padding: 15px 30px;
+    margin-top: 30px;
+}
+

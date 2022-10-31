@@ -1,0 +1,235 @@
+/*psd to html*/
+
+a:hover, a:visited, a:active{
+    text-decoration: none;
+}
+
+/*----*mini header*----*/
+.header__cover{
+    background: #f5f7fa;
+}
+.mini-header {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #506a85;
+    border-bottom: 1px solid #e6e9ed;
+}
+.header-contact span:first-child {
+    margin: 20px;
+
+}
+.social-icons {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    display: block;
+    width: 100%;
+}
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.social-icons li:last-child {
+    margin-right: 0;
+}
+.social-icons li a {
+    font-size: 14px;
+    color: #506a85;
+
+}
+.social-icons li a:hover, .social-icons li a:active, .social-icons li a:visited {
+    color: #3c526a;
+}
+
+/*main header*/
+
+.main-header {
+    height: 112px;
+    border-bottom: 1px solid #e6e9ed;
+    padding: 35px 0;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+.menu li {
+    display: inline-block;
+    margin: 0 22px;
+    list-style: none;
+   
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li:first-child {
+    margin: 0;
+}
+.menu li:last-child {
+    float: right;
+}
+.menu li a {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #506a85;
+    line-height: 40px;
+}
+.menu li a:hover, .menu li a:visited {
+    color: #3c5570;
+}
+.feature-area {
+    height: 550px;
+    background: url(../img/featured.jpeg) no-repeat #506984;
+    background-size: cover;
+}
+
+.feature-area-content {
+    width: 960px;
+    max-width: 100%;
+    color: white;
+    margin: 0 auto;
+    padding-top: 170px;
+}
+.feature-area-content h1 {
+    display: block;
+    width: 100%;
+    font-size: 55px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.feature-area-content p {
+    font-size: 20px;
+    color: #a3b1bf;
+}
+.feature-text-row {
+    margin-bottom: 30px;
+}
+.feature-area-btn {
+    background-color: #00bc9c;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid #00a085;
+    padding: 15px 50px;
+}
+.feature-area-btn:hover {
+    background-color: #008972;
+}
+/*----*Services Area*----*/
+.services {
+    padding: 125px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+.services-head-container {
+    width: 820px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.services-head h2{
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #506A85;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.services-head p {
+    font-size: 22px;
+    color: #9CA9B7;
+}
+.services-content {
+    margin-top: 60px;
+}
+.services-icon {
+    color: #00BC9C;
+    font-size: 50px;
+}
+.services-text h3 {
+    font-size: 26px;
+    color: #506a85;
+    text-align: left;
+}
+.services-text p {
+    font-size: 16px;
+    color: #73879c;
+    text-align: left;
+}
+.services-col, .services-icon, .services-col, .services-text {
+    float: left;
+}
+.services-col, .services-icon {
+    width: 70px;
+    text-align: left;
+}
+.services-col, .services-text {
+    width: calc(100% - 70px);
+}
+
+/*---------------------------
+ ------Home Posts Section----
+ --------------------------*/
+
+ .home-posts {
+    padding: 125px 0;
+    background-color: #f2f5f7;
+ }
+ .section-head h2, .section-head p {
+    width: 100%;
+    text-align: center;
+ }
+ .section-head h2 {
+    font-size: 44px;
+    color: #506a85;
+    margin-bottom: 20px;
+ }
+ .section-head p {
+    font-size: 22px;
+    color: #73879c;
+ }
+ .post-inner-col {
+    background-color: #ffffff;
+ }
+.latest-posts {
+    margin-top: 60px;
+}
+.post-meta {
+    padding: 15px;
+}
+.post-meta h4, .post-meta p {
+    text-align: center;
+    width: 100%;
+}
+.post-meta h4 {
+    font-size: 20px;
+    color: #506a85;
+}
+.post-meta p {
+    font-size: 14px;
+    color: #73879c;
+}
+.carousal-row {
+    margin-top: 80px;
+}
+.owl-dots {
+    text-align: center;
+    margin-top: 50px;
+}
+.owl-dots button {
+    display: inline-block;
+    border: 8px solid #506a85 !important;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.owl-dots button.active {
+    border-color: #00BC9C !important;
+}
